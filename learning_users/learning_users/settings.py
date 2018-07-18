@@ -27,7 +27,7 @@ SECRET_KEY = '%_vh*dg-faaos!u*1unm8_0&kj+!n@@fy$t_cbv)x$#cwlf-m%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sohel.pythonanywhere.com']
 
 
 # Application definition
