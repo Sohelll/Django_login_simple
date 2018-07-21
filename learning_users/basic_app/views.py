@@ -2,9 +2,9 @@ from django.shortcuts import render
 from .forms import UserForm, UserProfileInfoForm
 
 #
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse
-from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect, HttpResponse
 
 def index(request):
